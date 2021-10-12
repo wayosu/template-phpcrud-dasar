@@ -17,6 +17,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="public/css/custom.css">
 
-    <title>Hello, world!</title>
+    <title>PHP-CRUD Dasar</title>
   </head>
-  <body>
+  <body class="w-100">

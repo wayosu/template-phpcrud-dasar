@@ -10,7 +10,7 @@
                     <a class="nav-link my-active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="user.php">Data Users</a>
+                    <a class="nav-link" href="member.php">Data Members</a>
                 </li>
             </ul>
         </div>

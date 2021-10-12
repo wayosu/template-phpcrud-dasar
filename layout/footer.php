@@ -1,4 +1,4 @@
-<footer class="py-3 bg-light mt-auto fixed-bottom">
+<footer class="py-3 bg-light mt-auto">
     <div class="container text-center">
         <span class="text-muted">Copyright &copy; 2021 PHP-CRUD.</span>
     </div>

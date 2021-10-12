@@ -10,7 +10,7 @@ include 'layout/navbar.php';
 
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="my-0">Edit user</h4>
+                        <h4 class="my-0">Form Create Member</h4>
                     </div>
                     <form action="" method="POST">
                         <div class="card-body">
@@ -28,7 +28,7 @@ include 'layout/navbar.php';
                             </div>
                         </div>
                         <div class="card-footer bg-white"> 
-                            <a href="user.php" class="btn btn-sm btn-secondary">Kembali</a>     
+                            <a href="member.php" class="btn btn-sm btn-secondary">Kembali</a>     
                             <button type="submit" class="btn btn-sm btn-primary">Simpan</button>
                         </div>
                     </form>

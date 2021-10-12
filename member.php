@@ -11,8 +11,8 @@ include 'layout/navbar.php';
                 <div class="card">
                     <div class="card-header">
                         <div class="d-flex justify-content-between">
-                            <h4 class="my-0">Data Users</h4>
-                            <a href="create_user.php" class="btn btn-sm btn-primary">Create new user</a>
+                            <h4 class="my-0">Data Members</h4>
+                            <a href="create_member.php" class="btn btn-sm btn-primary">Create new member</a>
                         </div>
                     </div>
                     <div class="card-body">

@@ -3,13 +3,18 @@ include 'layout/header.php';
 include 'layout/navbar.php';
 ?>
 
-<section id="hero">
-    <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold">PHP CRUD Dasar</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Belajar membuat CRUD (Create, Read, Update, Delete) data dengan PHP dan MySQL.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a href="user.php" class="btn btn-primary px-4 gap-3">I'm Ready!</a>
+<section id="hero" class="overflow-hidden">
+    <div class="container py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-12 col-sm-8 col-lg-6">
+                <img src="public/img/programming.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-md-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">PHP CRUD Dasar</h1>
+                <p class="lead">Belajar membuat CRUD (Create, Read, Update, Delete) data dengan PHP dan MySQL.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a href="member.php" class="btn btn-primary btn-lg px-4 me-md-2">I'm Ready!</a>
+                </div>
             </div>
         </div>
     </div>
@@ -24,7 +29,9 @@ include 'layout/navbar.php';
             </div>
             <div>
                 <h2>Code Editor</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <p>
+                    Code editor adalah salah satu jenis dari text editor yang tersedia. Code editor ini merupakan text editor yang dikhususkan untuk menuliskan kode-kode dari perangkat lunak yang sedang dikembangkan.
+                </p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
@@ -33,7 +40,9 @@ include 'layout/navbar.php';
             </div>
             <div>
                 <h2>PHP</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <p>
+                    PHP merupakan bahasa pemrograman server-side, maka script dari PHP nantinya akan diproses di server. Jenis server yang sering digunakan bersama dengan PHP antara lain Apache, Nginx, dan LiteSpeed.
+                </p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
@@ -42,7 +51,9 @@ include 'layout/navbar.php';
             </div>
             <div>
                 <h2>MySQL</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <p>
+                    MySQL adalah DBMS yang open source dengan dua bentuk lisensi, yaitu Free Software (perangkat lunak bebas) dan Shareware (perangkat lunak berpemilik yang penggunaannya terbatas).
+                </p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
@@ -51,7 +62,9 @@ include 'layout/navbar.php';
             </div>
             <div>
                 <h2>Bootstrap</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <p>
+                    Bootstrap adalah framework front-end gratis. Selain mudah digunakan, framework ini juga mempersingkat pekerjaan developer sehingga tidak perlu menulis sintaks secara manual dan berulang kali.
+                </p>
             </div>
         </div>
     </div>
