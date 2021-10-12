@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link my-active" aria-current="page" href="index.php">Home</a>
+                    <a class="nav-link my-active" aria-current="page" href="index.php">Beranda</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="member.php">Data Members</a>
