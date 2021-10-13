@@ -1,4 +1,6 @@
 <?php
+include 'database/koneksi.php';
+include 'post/user.php';
 include 'layout/header.php';
 include 'layout/navbar.php';
 ?>
@@ -27,7 +29,32 @@ include 'layout/navbar.php';
                                 </tr>
                             </thead>
                             <tbody>
-                                
+                                <?php
+                                    $result = $mysqli->query("SELECT * FROM member");
+                                    $no = 1;
+                                    while($row = $result->fetch_object()){
+                                        echo"
+                                            <tr>
+                                                <td>$no</td>
+                                                <td>$row->nama</td>
+                                                <td>$row->alamat</td>
+                                                <td>$row->status</td>
+                                                <td>
+                                        ";
+                                            ?>
+                                                    <form action="" method="POST">
+                                                        <a href="edit_member.php?id=<?= $row->id; ?>" class="btn btn-warning">Edit</a>
+                                                        <input type="hidden" name="id" value="<?= $row->id; ?>">
+                                                        <button type="submit" name="hapus_data" class="btn btn-danger" onclick="return confirm('Anda yakin menghapus data ini?')">Hapus</button>
+                                                    </form>
+                                            <?php
+                                        echo"
+                                                </td>
+                                            </tr>
+                                        ";
+                                        $no++;
+                                    }
+                                ?>
                             </tbody>
                         </table>
                     </div>

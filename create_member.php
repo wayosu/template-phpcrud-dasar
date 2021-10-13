@@ -1,4 +1,6 @@
 <?php
+include 'database/koneksi.php';
+include 'post/user.php';
 include 'layout/header.php';
 include 'layout/navbar.php';
 ?>
@@ -29,7 +31,7 @@ include 'layout/navbar.php';
                         </div>
                         <div class="card-footer bg-white"> 
                             <a href="member.php" class="btn btn-sm btn-secondary">Kembali</a>     
-                            <button type="submit" class="btn btn-sm btn-primary">Simpan</button>
+                            <button type="submit" name="simpan_data" class="btn btn-sm btn-primary">Simpan</button>
                         </div>
                     </form>
                 </div>
